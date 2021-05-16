@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Students form</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1 id="title">Sudents Survey</h1>
+        <p id="description-title">We are looking forward to ours beloved students </p>
+    </header>
+    <div class="container" id="main">
+        <form id="survey-form" action="#" method="">
+            <div class="form-group" id="survey-form-group">
+                <label for="lastname" id="name-label" class="col-sm-2 col-form-label ">Firstname</label>
+                <div class="col-sm-10" id="check-form">
+                    <input type="name" class="form-control" id="name" placeholder="Firstname" required>
+                </div>
+            </div>
+
+            <div class="form-group" id="survey-form-group">
+                <label for="lastname" id="lastname-label" class="col-sm-2 col-form-label">Lastname</label>
+                <div class="col-sm-10" id="check-form">
+                    <input type="lastname" class="form-control" id="lastname" placeholder="lastname" required>
+                </div>
+            </div>
+
+            <div class="form-group" id="survey-form-group">
+                <label for="email" id="email-label" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10" id="check-form">
+                    <input type="email" class="form-control" id="email" placeholder="email" required>
+                </div>
+            </div>
+
+            <div class="form-group" id="survey-form-group">
+                <label for="age" id="number-label" class="col-sm-2 col-form-label">Age</label>
+                <div class="col-sm-10" id="check-form">
+                    <input type="number" class="form-control" id="number" min="15" max="99" placeholder="age">
+                </div>
+            </div>
+            </fieldset>
+            <div class="form-group" id="survey-form-group">
+                <div class="col-sm-2" id="form-group-gender">Gender</div>
+                <div class="col-sm-10" id="check-form">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" value="male">
+                        <label class="form-check-label" for="gridCheck1">
+                    Male
+                  </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" value="female">
+                        <label class="form-check-label" for="gridCheck1">
+                      Female
+                    </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group" id="survey-form-group">
+                <p id="description">What course did you take in?</p>
+                <div class="col-sm-10" id="check-form">
+                    <select class="form-control" id="dropdown">
+                        <option disabled selected value>Information Technology</option>
+                        <option value="computer science">Computer Science</option>
+                        <option value="computer engneering">Computer Engnerring</option>
+                        <option value="mechanical engneering">Mechanical Engnerring</option>
+                        <option value="others">Others</option>
+                      </select>
+                </div>
+            </div>
+            <div class="form-group" id="survey-form-group">
+                <p id="description">Are you satisfied in your School Teaching?</p>
+                <div class="col-sm-10" id="check-form">
+                    <div class="form-check">
+                        <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            No
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group" id="survey-form-group">
+                <p id="description">If yes,then? </p>
+                <div class="col-sm-10" id="check-form">
+                    <textarea id="comments" class="form-control" name="comment" placeholder="Write your thought here..."></textarea>
+                </div>
+            </div>
+
+            <div class="form-group" id="survey-form-group">
+                <p id="description">Any suggestion or comments</p>
+                <div class="col-sm-10" id="check-form">
+                    <textarea id="comments" class="form-control" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+            </div>
+
+            <div class="form-group" id="survey-form-group">
+                <div class="col-sm-10" id="check-form">
+                    <button type="submit" id="submit" class="btn btn-success form-control">Sign in</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
